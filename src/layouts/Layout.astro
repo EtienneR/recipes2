@@ -15,11 +15,7 @@ const { title } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="description" content="Recettes" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/pwa-192x192.png">
-    <link rel="mask-icon" href="/favicon.svg" color="#FFFFFF">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="/recipes2/favicon.svg" type="image/svg+xml">
     <title>{title}</title>
     <script src="/src/pwa.ts"></script>
     { pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} /> }
@@ -30,10 +26,10 @@ const { title } = Astro.props;
     <footer class="mt-3 footer">
       <div class="content is-small has-text-centered">
         <p>
-          <a href="/">Accueil</a> -
+          <a href="/recipes2/">Accueil</a> -
           Les recettes sont disponibles sur
           <a
-            href="https://github.com/EtienneR/recipes"
+            href="https://github.com/EtienneR/recipes2/"
             target="_blank"
             rel="noopener"
             >Github</a

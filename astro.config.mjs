@@ -8,17 +8,22 @@ import AstroPWA from '@vite-pwa/astro'
 export default defineConfig({
   site: 'https://etienner.github.io',
   base: '/recipes2',
-  integrations: [vue(), AstroPWA(
-    AstroPWA({
+  integrations: [vue(),
+  AstroPWA
+    ({
       mode: 'development',
-      base: '/',
+      base: '/recipes2/',
       scope: '/',
       includeAssets: ['favicon.svg'],
       registerType: 'autoUpdate',
       manifest: {
+        start_url: '',
         name: 'Astro PWA',
         short_name: 'Astro PWA',
+        lang: 'fr',
+        background_color: '#ffff',
         theme_color: '#ffffff',
+        orientation: 'portrait',
         icons: [
           {
             src: 'pwa-192x192.png',
@@ -46,5 +51,5 @@ export default defineConfig({
         navigateFallback: '/404',
       },
     }),
-  )]
+  ]
 });
