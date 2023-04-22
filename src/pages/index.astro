@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Recipes from "../components/Recipes.vue";
+import { getCollection } from "astro:content";
+const recipesEntries = await getCollection("recipes");
+---
+
+<Layout title="Recettes de cuisine">
+  <Recipes recipes={recipesEntries} client:load />
+</Layout>
