@@ -6,6 +6,8 @@ import AstroPWA from '@vite-pwa/astro'
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://etienner.github.io',
+  base: '/recipes2',
   integrations: [vue(), AstroPWA(
     AstroPWA({
       mode: 'development',
