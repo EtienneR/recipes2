@@ -1,6 +1,6 @@
 ---
-import 'bulma/css/bulma.min.css';
-import { pwaInfo } from 'virtual:pwa-info';
+import "bulma/css/bulma.min.css";
+import { pwaInfo } from "virtual:pwa-info";
 
 export interface Props {
   title: string;
@@ -15,7 +15,8 @@ const { title } = Astro.props;
     <meta charset="UTF-8" />
     <meta name="description" content="Recettes" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" href="/recipes2/favicon.svg" type="image/svg+xml">
+    <meta name="theme-color" content="#fff" />
+    <link rel="icon" href="/recipes2/favicon.svg" type="image/svg+xml" />
     <title>{title}</title>
     <script src="/src/pwa.ts"></script>
     { pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} /> }
@@ -26,18 +27,15 @@ const { title } = Astro.props;
     <footer class="mt-3 footer">
       <div class="content is-small has-text-centered">
         <p>
-          <a href="/recipes2/">Accueil</a> -
+          { Astro.url.pathname !== "/recipes2/" && <Fragment set:text='<a href="/recipes2/">Accueil</a> -' />}
           Les recettes sont disponibles sur
           <a
             href="https://github.com/EtienneR/recipes2/"
             target="_blank"
-            rel="noopener"
-            >Github</a
+            rel="noopener">Github</a
           >
           - Site propulsé par
-          <a href="https://astro.build" target="_blank" rel="noopener"
-            >Astro</a
-          >
+          <a href="https://astro.build" target="_blank" rel="noopener">Astro</a>
           et mise en page avec
           <a href="https://bulma.io" target="_blank" rel="noopener">Bulma</a>
         </p>

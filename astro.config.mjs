@@ -17,7 +17,7 @@ export default defineConfig({
       includeAssets: ['favicon.svg'],
       registerType: 'autoUpdate',
       manifest: {
-        start_url: '',
+        id: '/recipes2/',
         name: 'Astro PWA',
         short_name: 'Astro PWA',
         lang: 'fr',
@@ -39,7 +39,7 @@ export default defineConfig({
             src: 'pwa-512x512.png',
             sizes: '512x512',
             type: 'image/png',
-            purpose: 'any maskable',
+            purpose: 'maskable',
           },
         ],
       },
