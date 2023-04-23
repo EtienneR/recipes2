@@ -13,7 +13,6 @@ export default defineConfig({
     ({
       mode: 'development',
       base: '/recipes2/',
-      scope: '/',
       includeAssets: ['favicon.svg'],
       registerType: 'autoUpdate',
       manifest: {
@@ -21,7 +20,7 @@ export default defineConfig({
         name: 'Astro PWA',
         short_name: 'Astro PWA',
         lang: 'fr',
-        background_color: '#ffff',
+        background_color: '#ffffff',
         theme_color: '#ffffff',
         orientation: 'portrait',
         icons: [
