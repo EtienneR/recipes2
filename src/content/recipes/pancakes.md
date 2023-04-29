@@ -18,5 +18,3 @@ directions:
     - Faites chauffer la poêle avec de la matière grasse et versez une louche de pâte
     - Laissez la pâte cuire et retournez-la une fois que se forment des petites bulles
 ---
-
-Pour un déjeuner gourmand.

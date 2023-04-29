@@ -19,5 +19,3 @@ directions:
     - Versez la pâte dans le moule de 20 cm.
     - Enfournez pendant 20 min à 180°C.
 ---
-
-Un cookie géant à partager.

@@ -33,30 +33,32 @@ function getTypeClass(type) {
     </div>
   </section>
 
-  <div class="columns is-centered my-3 is-variable is-0-mobile is-0-tablet">
-    <div class="column is-2">
-      <input v-model="query" class="input" type="search" placeholder="Rechercher une recette"
-        aria-describedby="Rechercher une recette" />
+  <div class="has-background-white">
+    <div class="columns is-centered my-3 is-variable is-0-mobile is-0-tablet">
+      <div class="column is-2">
+        <input v-model="query" class="input" type="search" placeholder="Rechercher une recette"
+          aria-describedby="Rechercher une recette" />
+      </div>
     </div>
-  </div>
 
-  <div class="columns is-multiline is-variable is-0-mobile is-0-tablet is-3-desktop">
-    <div v-for="recipe in recipes" class="column is-3">
-      <div class="box">
-        <article class="media">
-          <div class="media-content">
-            <div class="content">
-              <p>
-                <a :href="recipe.slug">{{ recipe.data.title }}</a>
-              </p>
+    <div class="columns is-multiline is-variable is-0-mobile is-0-tablet is-3-desktop">
+      <div v-for="recipe in recipes" class="column is-3">
+        <div class="box">
+          <article class="media">
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <a :href="recipe.slug">{{ recipe.data.title }}</a>
+                </p>
+              </div>
             </div>
-          </div>
-          <div>
-            <span :class="getTypeClass(recipe.data.type)" class="tag has-text-light">
-              {{ recipe.data.type }}
-            </span>
-          </div>
-        </article>
+            <div>
+              <span :class="getTypeClass(recipe.data.type)" class="tag has-text-light">
+                {{ recipe.data.type }}
+              </span>
+            </div>
+          </article>
+        </div>
       </div>
     </div>
   </div>

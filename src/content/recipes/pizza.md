@@ -17,5 +17,3 @@ directions:
       - Passer l’heure, la pâte va doubler de volume. “Dégazer” la pâte en frappant énergiquement sur celle-ci. Puis, étalez la pâte à l’aide d’un pâtisserie dans un plat. Préchauffez votre four à 240°C avec chaleur propulsée par le bas et en mettant un leche frites tout en bas du four.
       - Enfournez la pizza dans le four à 240°C sur la grille inférieure pendant 10 minutes.
 ---
-
-Si la pâte est trop humide, ajoutez de la farine. Si c’est le contraire, ajoutez de l’eau.

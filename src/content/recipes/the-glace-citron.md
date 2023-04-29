@@ -13,5 +13,3 @@ directions:
     - Retirer les sachets de thé (bien pressé dessus) et ajouter le sirop à la menthe.
     - Ajouter le jus du citron jaune.
 ---
-
-Boisson rafraichissant durant les périodes de canicule.

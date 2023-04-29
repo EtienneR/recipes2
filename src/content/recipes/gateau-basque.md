@@ -45,5 +45,3 @@ directions:
       - Dorer avec un jaune d’œuf entier sur du papier essuie tout. Puis, à l’aide d’une fourchette former des stries.
       - Cuire 40 minutes à 160°C puis attendre que la gâteau refroidisse avant de le démouler.
 ---
-
-Un gâteau bien généreux, idéal pour le petit déjeuner.

@@ -13,5 +13,3 @@ directions:
     - Couper en fines rondelles la banane dans le mixeur ainsi que la cannelle
     - Mixer
 ---
-
-Boisson rafraichissante

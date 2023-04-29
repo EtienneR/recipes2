@@ -4,7 +4,7 @@ type: sucré
 ingredients:
   - list:
     - 75 g de beurre
-    - 1 oeuf
+    - 1 œuf
     - 75 g de sucre
     - 175 g de farine
     - 1 CàC de levure chimique
@@ -13,7 +13,7 @@ ingredients:
 directions:
   - list:
     - Laisser le beurre se ramollir à température ambiante.
-    - Dans un cul de poule ou un saladier, mélanger l'oeuf avec le sucre.
+    - Dans un cul de poule ou un saladier, mélanger l'œuf avec le sucre.
     - Ajouter le beurre mou.
     - Ajouter la farine mélangée à la levure petit à petit puis le miel.
     - Réserver la pâte à cookies au frigo pendant 30 minutes.

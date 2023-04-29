@@ -18,5 +18,3 @@ directions:
     - Préchauffez le four à 180°C.
     - Enfournez pour 35 min.
 ---
-
-Une version fondante du flan classique.

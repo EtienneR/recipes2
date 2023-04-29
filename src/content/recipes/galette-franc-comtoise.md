@@ -18,5 +18,3 @@ directions:
     - Etaler sur une plaque beurrée d’environ 26 cm de diamètre (un fond de moule amovible ou un lèche frite). Façonner la galette puis terminer en la dorant avec le jaune d’oeuf à l’aide d’une fourchette pour faire des stries
     - Enfourner 30 minutes.
 ---
-
-Une recette de Besançon.

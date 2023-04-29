@@ -3,16 +3,17 @@ title: Crèmes dessert à la vanille
 type: sucré
 ingredients:
   - list:
-    - 50 cl de lait
     - 30 g de Maïzena
-    - 50 g de sucre (de canne)
+    - 50 g de sucre roux
     - 1 pincée de sel
-    - 1 gousse de vanille (ou 2 CàS d’arôme de vanille)
+    - 50 cl de lait entier
+    - 2 CàS d’arôme de vanille
 directions:
   - list:
-    - Prélever un verre de lait et le mettre dans le saladier. Ajoutez la Maïzena, le sucre et la pincée de sel. Mélangez jusqu’à obtenir un mélange homogène.
-    - Dans une casserole, coupez la gousse de vanille en deux afin de prélever les graines. Ajoutez le lait, la gousse vidée et le contenu du saladier puis chauffez à feu doux tout en remuant constamment au fouet jusqu’à la première ébullition.
-    - Retirez la gousse de vanille et versez dans les verrines.
+    - Mélanger tous les ingrédients secs dans une casserole.
+    - Ajouter progressivement à froid le lait et l'arôme de vanille tout en remuant bien pour obtenir un mélange homogène.
+    - Porter la préparation à feu doux et remuez constamment jusqu’à la première ébullition. Placer alors hors du feu et versez dans des ramequins.
+    - Laisser refroidir puis placer au réfrigérateur (attendre une nuit pour une meilleur de dégustation).
 ---
 
 Beaucoup moins sucrées que des *Danettes*.

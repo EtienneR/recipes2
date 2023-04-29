@@ -13,13 +13,14 @@ const { entry } = Astro.props;
 const { title, type, ingredients, directions } = entry.data;
 
 // TODO: externaliser
-const typeClass: string = type === "sucré" ? "has-background-link" : "has-background-success-dark";
+const typeClass: string =
+  type === "sucré" ? "has-background-link" : "has-background-success-dark";
 const { Content } = await entry.render();
 const hasContent: boolean = Content.length > 0 ? true : false;
 ---
 
 <Layout title={title}>
-  <article>
+  <article class="has-background-white">
     <section class={`hero mb-2 ${typeClass}`}>
       <div class="hero-body has-text-centered">
         <h1 class="title has-text-light">
@@ -34,15 +35,17 @@ const hasContent: boolean = Content.length > 0 ? true : false;
     <div class="container mt-3 content">
       <div class="columns is-multiline is-variable is-0-mobile is-0-tablet">
         <section class="column is-one-third">
-          <h2 class="title">Ingrédients</h2>
+          <h2 class="title has-text-centered-mobile has-text-weight-normal">
+            Ingrédients
+          </h2>
           {
-            ingredients.map((ingredient: any) => (
+            ingredients.map((ingredient: { step: string; list: string[] }) => (
               <div>
                 {ingredient.step && (
                   <h3 class="mt-3 has-text-grey-dark">{ingredient.step}</h3>
                 )}
                 <ul>
-                  {ingredient.list.map((list: any) => (
+                  {ingredient.list.map((list: string) => (
                     <li>{list}</li>
                   ))}
                 </ul>
@@ -51,15 +54,17 @@ const hasContent: boolean = Content.length > 0 ? true : false;
           }
         </section>
         <section class="column is-two-third">
-          <h2>Instructions</h2>
+          <h2 class="title has-text-centered-mobile has-text-weight-normal">
+            Instructions
+          </h2>
           {
-            directions.map((directions: any) => (
+            directions.map((directions: { step: string; list: string[] }) => (
               <div>
                 {directions.step && (
                   <h3 class="mt-3 has-text-grey-dark">{directions.step}</h3>
                 )}
                 <ol>
-                  {directions.list.map((list: any) => (
+                  {directions.list.map((list: string) => (
                     <li>{list}</li>
                   ))}
                 </ol>
@@ -78,10 +83,4 @@ const hasContent: boolean = Content.length > 0 ? true : false;
       }
     </div>
   </article>
-
-  <!-- <div class="container">
-    <div class="has-text-right has-text-centered-mobile mt-6">
-      <a href="/">Retourner vers l'accueil</a>
-    </div>
-  </div> -->
 </Layout>

@@ -36,5 +36,3 @@ directions:
       - Étalez le chocolat fondu sur le toffee (ce dernier doit être bien figé dans le moule).
       - Laisser refroidir pendant 1 demi heure environ à température ambiante puis placez le moule dans le réfrigérateur. 
 ---
-
-Moins sucré que la version originale.

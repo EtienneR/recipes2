@@ -21,6 +21,3 @@ directions:
       - Beurrer (avec le reste du beurre fondu) et fariner légerement le moule à madeleine du partage.
       - Abaisser la température du four à 160°C et faire cuire 50 min.
 ---
-
-- Cette madeleine est réalisable avec le moule à madeleine du partage XXL de Fabrice le Bourdat (de la marque Matfer).
-- Si remplacement de l'arôme d'amande par des zestes (citron ou orange), mettre un sachet entier de levure.

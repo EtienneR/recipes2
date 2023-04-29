@@ -21,5 +21,3 @@ directions:
     - Verser la pâte dans le moule à financiers.
     - Enfournez pendant 15 min à 180°C.
 ---
-
-Histoire d'utiliser son moule à financier...

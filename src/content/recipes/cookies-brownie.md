@@ -5,7 +5,7 @@ ingredients:
   - list:
     - 250 g de chocolat noir
     - 80 g de beurre
-    - 2 oeufs
+    - 2 œufs
     - 1 CàS (bombée) de cacao en poudre non sucrée
     - 90 g de sucre de canne
     - 70 g de farine de blé
@@ -14,7 +14,7 @@ ingredients:
 directions:
   - list:
     - Dans un grand bol, faire fondre le beurre et 200 g de chocolat noir (bain marie, micro-onde ou four à 90°C).
-    - Dans un saladier, fouetter les oeufs avec le sucre pendant quelques minutes.
+    - Dans un saladier, fouetter les œufs avec le sucre pendant quelques minutes.
     - Ajouter le cacao sur le chocolat fondu puis ajouter ce mélange au précédent.
     - Ajouter les farines avec la levure délayée en plusieurs fois.
     - Concasser et ajouter le reste du chocolat en mélangeant délicatement (du bas vers le haut) puis réserver au frigo (environ 30 min).
