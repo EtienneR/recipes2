@@ -6,10 +6,10 @@ ingredients:
       - 175 g de farine
       - 1/2 sachet de levure chimique
       - 100 g de sucre roux
-      - 100 g d'huile de colez ou 100 g de beurre fondu
+      - 100 g d'huile de colza ou 100 g de beurre fondu
       - 2 oeufs
       - 25 g de lait
-      - 1 CàC d'amande amère (ou autre arome)
+      - 1 CàC d'amande amère (ou autre arome / agrumes)
 directions:
   - list:
       - Préchauffer le four à 180°C (chaleur tournante).
