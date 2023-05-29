@@ -18,5 +18,5 @@ directions:
     - Ajouter le jus de citron, la crème fraîche et l’huile.
     - Incorporer les œufs en battant délicatement (le mélange doit être homogène).
     - Ajouter la farine et la levure.
-    - Transvaser dans un moule à cake et enfourner 40 minutes.
+    - Transvaser dans un moule à cake (22 cm de longueur) préalablement beurré à l'aide d'une maryse et enfourner 40 minutes.
 ---

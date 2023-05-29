@@ -18,6 +18,6 @@ directions:
     - Ajouter un par un les oeufs, bien mélanger pour obtenir un mélange homogène.
     - Ajouter la farine et la levure en plusieurs temps.
     - Ajouter le jus de la demie orange puis le miel.
-    - Verser la pâte dans le moule à financiers.
+    - Verser la pâte dans les emprunts du moule à financiers préalablement beurré.
     - Enfournez pendant 15 min à 180°C.
 ---
