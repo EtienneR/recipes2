@@ -3,8 +3,13 @@ import Layout from "../layouts/Layout.astro";
 import Recipes from "../components/Recipes.vue";
 import { getCollection } from "astro:content";
 const recipesEntries = await getCollection("recipes");
+const recipesEntriesSorted = recipesEntries.sort((a, b) =>
+  a.data.title.localeCompare(b.data.title, "fr", {
+    sensitivity: "base",
+  })
+);
 ---
 
 <Layout title="Recettes de cuisine">
-  <Recipes recipes={recipesEntries} client:load />
+  <Recipes recipes={recipesEntriesSorted} client:load />
 </Layout>
